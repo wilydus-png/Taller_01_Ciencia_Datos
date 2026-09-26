@@ -1,0 +1,59 @@
+Descripción del Dataset Online Retail
+
+El conjunto de datos utilizado corresponde al dataset Online Retail, el cual contiene información transaccional de ventas realizadas durante el periodo comprendido entre diciembre de 2010 y diciembre de 2011.
+
+Cada registro representa una línea de detalle de una transacción comercial e incluye información relacionada con la factura, producto, cantidad adquirida, precio unitario, cliente y país.
+
+Variables principales:
+
+InvoiceNo:
+Identificador de la factura o transacción.
+
+StockCode:
+Código del producto vendido.
+
+Description:
+Descripción del artículo comercializado.
+
+Quantity:
+Cantidad de unidades vendidas.
+
+InvoiceDate:
+Fecha y hora de la transacción.
+
+UnitPrice:
+Precio unitario del producto.
+
+CustomerID:
+Identificador del cliente.
+
+Country:
+País asociado al cliente.
+
+Proceso de limpieza aplicado:
+
+Inicialmente el dataset contenía 541.909 registros. Se realizaron procesos de limpieza para mejorar la calidad de los datos:
+
+- Eliminación de registros sin descripción del producto.
+- Eliminación de registros sin identificación de cliente.
+- Eliminación de 5.225 registros duplicados.
+- Eliminación de transacciones con cantidades negativas.
+- Eliminación de registros con precios menores o iguales a cero.
+
+Después del proceso de limpieza se obtuvo un dataset final de 392.692 registros.
+
+Metadata generada:
+
+- Clientes únicos: 4.338.
+- Productos diferentes: 3.877.
+- Países registrados: 37.
+- Periodo analizado: 01/12/2010 al 09/12/2011.
+- Ventas acumuladas: 8.887.208,89.
+
+Análisis de visualizaciones:
+
+La primera visualización permitió identificar la distribución geográfica de las ventas, observando una alta concentración del valor comercial en Reino Unido.
+
+La segunda visualización permitió identificar los productos con mayor volumen de unidades vendidas, destacando los artículos con mayor rotación dentro del catálogo.
+
+La tercera visualización mostró la evolución mensual de las ventas, identificando un crecimiento durante los últimos meses del periodo analizado y un incremento importante hacia noviembre de 2011.
